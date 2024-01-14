@@ -3,4 +3,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorHome">#FFFFFFFF</color>
+    <color name="colorProfile">#FF000000</color>
 </resources>
