@@ -1,6 +1,7 @@
 package com.route.islami_c39_gsun_wed.fragments
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -22,13 +23,14 @@ class HomeFragment : Fragment() {
     //  1- Create Git Repository
     //
 
-    // 1- UnVersioned () -> red
-    // 2- Ignored Files
-    // 3- Versioned Files (Tracked Files) -> Green -> Default
-
+    //          1- UnVersioned () -> red
+    //          2- Ignored Files
+    //          3- Versioned Files (Tracked Files) -> Green -> Default
+    //  2- Initial Commit  -> Save -> Git
     // Commit -> Save Changes ->
     // initial Commit
-
+    // Code
+    // Remote Repository -> Github - Gitlab - Bitbucket
     // View Binding
 
 
@@ -42,6 +44,6 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        Log.e("Test Git", "Hello World")
     }
 }
