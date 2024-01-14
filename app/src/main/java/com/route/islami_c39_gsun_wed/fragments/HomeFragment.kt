@@ -44,6 +44,7 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        Log.e("TAG", "onViewCreated:  Hello From Home Screen")
         Log.e("Test Git", "Hello World")
     }
 }
