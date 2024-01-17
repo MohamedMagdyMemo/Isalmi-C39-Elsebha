@@ -2,8 +2,27 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.IslamiC39GSunWed" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/goldColor</item>
+        <item name="colorPrimaryVariant">@color/goldVariantColor</item>
+        <!--        <item name="colorOnPrimary">@color/white</item>-->
+        <!--         Secondary brand color. -->
+        <!--        <item name="colorSecondary">@color/colorPrimary</item>-->
+        <!--        <item name="colorSecondaryVariant">@color/colorPrimary</item>-->
+        <!--        <item name="colorOnSecondary">@color/black</item>-->
+        <!--         Status bar color. -->
+        <item name="android:statusBarColor">@color/goldVariantColor</item>
+
+        <!-- Customize your theme here. -->
     </style>
 
     <style name="Theme.IslamiC39GSunWed" parent="Base.Theme.IslamiC39GSunWed" />
+
+    <style name="bottomNavigationStyle">
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="itemBackground">@null</item>
+        <item name="itemIconSize">40dp</item>
+        <item name="itemIconTint">@color/ic_bottom_navigation_view_selector</item>
+        <item name="itemTextColor">@color/black</item>
+        <item name="android:background">@color/goldColor</item>
+    </style>
 </resources>

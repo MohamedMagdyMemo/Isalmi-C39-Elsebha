@@ -4,4 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="colorHome">#FFFFFFFF</color>
     <color name="colorProfile">#FF000000</color>
+    <color name="goldColor">#FFB7935F</color>
+    <color name="goldVariantColor">#9D835E</color>
+
 </resources>
