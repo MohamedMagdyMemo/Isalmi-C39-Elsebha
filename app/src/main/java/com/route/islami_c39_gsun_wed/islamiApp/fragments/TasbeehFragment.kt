@@ -18,5 +18,37 @@ class TasbeehFragment : Fragment() {
         binding = FragmentTasbeehBinding.inflate(inflater)
         return binding.root
     }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        var NumberOfTasbehat=0
+        binding.numberOfTasbeha.text=NumberOfTasbehat.toString()
+        binding.nameOfTasbeha.text="سبحان الله"
+        binding.buttonOFsebha.setOnClickListener{
+            binding.buttonOFsebha.setRotation(binding.buttonOFsebha.getRotation() + 90)
+            NumberOfTasbehat++
+            binding.numberOfTasbeha.text=NumberOfTasbehat.toString()
+
+            if (NumberOfTasbehat == 33&& binding.nameOfTasbeha.text.equals("سبحان الله"))
+            {
+                NumberOfTasbehat=0
+                binding.numberOfTasbeha.text=NumberOfTasbehat.toString()
+                binding.nameOfTasbeha.text = "الحمد لله"
+            }
+            if (NumberOfTasbehat==33&& binding.nameOfTasbeha.text.equals("الحمد لله"))
+            {
+                NumberOfTasbehat=0
+                binding.numberOfTasbeha.text=NumberOfTasbehat.toString()
+                binding.nameOfTasbeha.text="الله اكبر"
+            }
+            if (NumberOfTasbehat==33&& binding.nameOfTasbeha.text.equals("الله اكبر"))
+            {
+                NumberOfTasbehat=0
+                binding.numberOfTasbeha.text=NumberOfTasbehat.toString()
+                binding.nameOfTasbeha.text="سبحان الله"
+            }
+        }
+
+
+    }
 
 }
